@@ -1,0 +1,15 @@
+torch
+transformers
+accelerate
+bitsandbytes
+datasets
+peft
+langchain
+faiss-cpu
+fastapi
+uvicorn[standard]
+python-dotenv
+langchain
+langchain_community
+langchain-ollama
+colorama

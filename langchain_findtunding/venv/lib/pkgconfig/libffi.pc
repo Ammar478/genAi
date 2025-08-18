@@ -1,0 +1,11 @@
+prefix=/Users/ammar/Documents/MacFolder/learning/gen-ai/langchain_findtunding/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/ammar/Documents/MacFolder/learning/gen-ai/langchain_findtunding/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

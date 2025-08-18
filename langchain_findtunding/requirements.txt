@@ -1,0 +1,29 @@
+# Core
+transformers
+accelerate
+bitsandbytes
+peft
+trl
+
+
+langchain
+langchain-community
+pypdf
+python-docx
+beautifulsoup4
+unstructured
+
+# Embeddings (Arabic/English)
+sentence-transformers
+
+# Vector store
+faiss-cpu
+
+# API
+fastapi
+uvicorn[standard]
+pydantic
+
+# Utils
+python-dotenv
+orjson
