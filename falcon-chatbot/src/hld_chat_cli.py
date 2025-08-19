@@ -30,7 +30,7 @@ qa_chain = RetrievalQA.from_chain_type(
     llm=llm,
     retriever=retriever,
     chain_type="stuff",
-    chain_type_kwargs={"prompt": prompt}
+    chain_type_kwargs={"prompt": prompt},
 )
 
 if __name__ == "__main__":
@@ -42,4 +42,7 @@ if __name__ == "__main__":
             break
 
         response = qa_chain.invoke({"query": query})
-        print(Fore.YELLOW + "Bot:" + Style.RESET_ALL, Fore.WHITE + response["result"] + "\n")
+        print(
+            Fore.YELLOW + "Bot:" + Style.RESET_ALL,
+            Fore.WHITE + response["result"] + "\n",
+        )
